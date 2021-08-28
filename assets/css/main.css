@@ -297,20 +297,26 @@ h2.major,
 h3.major,
 h4.major,
 h5.major,
-h6.major {
+h6.major,
+p.major {
   border-bottom: solid 1px #ffffff;
   width: -moz-max-content;
   width: -webkit-max-content;
   width: -ms-max-content;
   width: max-content;
-  padding-bottom: 0.5rem;
+  padding-bottom: 0.2rem;
+  padding-right: 0.2rem;
   margin: 0 0 2rem 0;
 }
 
-h2.major > p {
-  font-size: 0.7rem;
-  margin-top: 5%;
-  margin-bottom: -5%;
+p.major {
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+p.major > small {
+  font-size: 0.8rem;
+  font-weight: 300;
+  margin-left: 0.6rem;
 }
 
 h1 {
